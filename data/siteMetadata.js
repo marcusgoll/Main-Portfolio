@@ -1,8 +1,8 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Next.js Starter Blog',
-  author: 'Tails Azimuth',
-  headerTitle: 'TailwindBlog',
+  title: 'Classroom to Cockpit - Flight Instruction and CFI Lesson Plans',
+  author: 'Marcus Gollahon',
+  headerTitle: 'Classroom to Cockpit',
   description: 'A blog created with Next.js and Tailwind.css',
   language: 'en-us',
   theme: 'system', // system, dark or light
@@ -11,12 +11,12 @@ const siteMetadata = {
   siteLogo: '/static/images/logo.png',
   socialBanner: '/static/images/twitter-card.png',
   mastodon: 'https://mastodon.social/@mastodonuser',
-  email: 'address@yoursite.com',
+  email: 'marcusgoll@gmail.com',
   github: 'https://github.com',
-  twitter: 'https://twitter.com/Twitter',
-  facebook: 'https://facebook.com',
-  youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
+  twitter: 'https://twitter.com/marcusgoll',
+  facebook: 'https://facebook.com/marcusgollahon',
+  youtube: 'https://youtube.com/marcusgoll',
+  linkedin: 'https://www.linkedin.com/in/marcusgoll',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
@@ -40,7 +40,7 @@ const siteMetadata = {
   newsletter: {
     // supports mailchimp, buttondown, convertkit, klaviyo, revue, emailoctopus
     // Please add your .env file and modify it according to your selection
-    provider: 'buttondown',
+    provider: 'convertkit',
   },
   comments: {
     // If you want to use an analytics provider you have to add it to the
@@ -80,9 +80,9 @@ const siteMetadata = {
     // provider: 'algolia',
     // algoliaConfig: {
     //   // The application ID provided by Algolia
-    //   appId: 'R2IYF7ETH7',
+    //   appId: 'CATRNGTYNO',
     //   // Public API key: it is safe to commit it
-    //   apiKey: '599cec31baffa4868cae4e79f180729b',
+    //   apiKey: '14e5b559bb7ca787f3212ab2b5028400',
     //   indexName: 'docsearch',
     // },
   },
